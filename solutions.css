@@ -54,3 +54,12 @@
   filter: invert(.7) grayscale(1);
 }
 
+.ex-8-img {
+  transition: 2s;
+}
+
+.ex-8-img:hover {
+  filter: contrast(.7) grayscale(0.6);
+  border-radius: 20px;
+}
+
