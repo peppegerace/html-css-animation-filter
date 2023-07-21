@@ -63,3 +63,13 @@
   border-radius: 20px;
 }
 
+.ex-9-img {
+  transition: 2s;
+}
+
+.ex-9-img:hover {
+  filter: contrast(.7) grayscale(0.6);
+  border-radius: 20px;
+  scale: 1.5;
+}
+
