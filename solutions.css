@@ -104,3 +104,37 @@
     transform: rotate(0);
   }
 }
+
+
+.ex-12-button:hover .ex-12-top-white {
+  animation: moveSpaceTop 2s ease-in-out;
+}
+
+@keyframes moveSpaceTop {
+  0% {
+    left: 10%;
+  }
+  50% {
+    left: calc(100% - 60px);
+  }
+  100% {
+    left: 10%;
+  }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: moveSpace 2s ease-in-out;
+}
+
+@keyframes moveSpace {
+  0% {
+    right: 20%;
+  }
+  50% {
+    right: calc(100% - 60px);
+  }
+  100% {
+    right: 20%;
+  }
+}
+
