@@ -35,9 +35,10 @@
 }
 
 .ex-5-square:hover {
-  scale: 1.2;
+  scale: 2;
 }
 
 .ex-5-square:active {
-  scale: 0.8;
+  scale: 0.5;
 }
+
