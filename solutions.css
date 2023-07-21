@@ -73,3 +73,34 @@
   scale: 1.5;
 }
 
+.ex-10-icon {
+  animation: rotateAnimation 1s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  0% {
+      transform: rotate(1turn);
+  }
+}
+
+.ex-11-icon:hover {
+  animation: rotate 2s linear;
+}
+
+@keyframes rotate {
+  0% {
+      transform: rotate(0);
+  }
+  25% {
+      transform: rotate(100deg);
+  }
+  50% {
+    transform: rotate(200deg);
+  }
+  75% {
+    transform: rotate(300deg);
+  }
+  100%{
+    transform: rotate(0);
+  }
+}
